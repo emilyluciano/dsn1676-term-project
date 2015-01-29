@@ -52,9 +52,9 @@ font-size: 15px;
 .square-to-circle {
   width: 50px;
   height: 50px;
-  background-color: coral;
+  background-color:#dd9292;
   animation: square-to-circle 1s 2s infinite alternate;
-  left: 30%;
+  left: 45%;
   position: absolute;
 }
 
@@ -95,7 +95,7 @@ font-size: 15px;
   }
   50%  {
     border-radius:50% 50% 0 0;
-    background:indianred;
+    background:#dd9292; 
   }
   75%  { 
     border-radius:50% 50% 50% 0;
