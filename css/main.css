@@ -54,8 +54,8 @@ font-size: 15px;
   height: 50px;
   background-color: coral;
   animation: square-to-circle 1s 2s infinite alternate;
-  left: 50%;
-  position: relative;
+  left: 30%;
+  position: absolute;
 }
 
 @keyframes square-to-circle {
@@ -87,11 +87,11 @@ font-size: 15px;
 @keyframes square-to-circle {
   0%  {
     border-radius:0 0 0 0;
-    background:coral; 
+    background:#dd9292; 
   }
   25%  {
     border-radius:50% 0 0 0;
-    background:darksalmon; 
+    background:#f7f7f7;
   }
   50%  {
     border-radius:50% 50% 0 0;
@@ -99,11 +99,11 @@ font-size: 15px;
   }
   75%  { 
     border-radius:50% 50% 50% 0;
-    background:lightcoral;
+    background:#dd9292;
   }
   100% {  
     border-radius:50%;
-    background:darksalmon;
+    background:black;
   }
 }
 
