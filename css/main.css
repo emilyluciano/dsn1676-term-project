@@ -55,7 +55,7 @@ height: 50px;
 background-color: black;
 animation: 1s ease 2s alternate none infinite running square-to-circle;
 left: 45%;
-top: 35%;
+top: 50%;
 position: absolute;
 }
 
