@@ -18,7 +18,18 @@ html {
 }
 
 nav {
-background-color:#f8ab9a;
+background-image: url(../images/lovely_gang.jpg);
+background-position: center;
+background-repeat: no-repeat;
+background-size: 100%;
+}
+
+.nav-bar {
+background-color:#f7f7f7;
+width: 100%;
+position: relative;
+height: 35px;
+
 }
 
 body {
@@ -37,4 +48,9 @@ text-align: center;
  text-align: center;
  width: 90%;
  margin: 1em;
+}
+
+h2 {
+text-align: center;
+font-size: 15px;
 }
