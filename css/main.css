@@ -55,7 +55,6 @@ height: 50px;
 background-color: black;
 animation: 1s ease 2s alternate none infinite running square-to-circle;
 left: 45%;
-top: 50%;
 position: absolute;
 }
 
@@ -69,44 +68,46 @@ position: absolute;
 
 @-webkit-keyframes square-to-circle {
   0%  {
-    border-radius:0 0 0 0;
+    border-radius:50px 50px 0 0;
   }
   25%  {
-    border-radius:50% 0 0 0;
+    border-radius:50px 50px 0 0;
   }
   50%  {
-    border-radius:50% 50% 0 0;
+    border-radius:50px 50px 0 0;
   }
   75%  {
-    border-radius:50% 50% 50% 0;
+    border-radius:50px 50px 0 0;
   }
   100% {
-    border-radius:50%;
+    border-radius:50px 50px 0 0;
   }
 }
 
 @keyframes square-to-circle {
   0%  {
-    border-radius:0 0 0 0;
+    border-radius:50px 50px 0 0;
+    border
     background:#dd9292; 
   }
   25%  {
-    border-radius:50% 0 0 0;
+    border-radius:50px 50px 0 0;
     background:#f7f7f7;
   }
   50%  {
-    border-radius:50% 50% 0 0;
+    border-radius:50px 50px 0 0;
     background:#dd9292; 
   }
   75%  { 
-    border-radius:50% 50% 50% 0;
+    border-radius:50px 50px 0 0;
     background:#dd9292;
   }
   100% {  
-    border-radius:50%;
+    border-radius:50px 50px 0 0;
     background:black;
   }
 }
+
 
 
 
