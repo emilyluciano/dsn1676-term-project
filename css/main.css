@@ -54,6 +54,8 @@ font-size: 15px;
   height: 50px;
   background-color: coral;
   animation: square-to-circle 1s 2s infinite alternate;
+  left: 50%;
+  position: relative;
 }
 
 @keyframes square-to-circle {
