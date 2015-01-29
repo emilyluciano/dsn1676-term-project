@@ -79,7 +79,7 @@ position: absolute;
   }
   50%  {
     border-radius:50% 50% 0 0;
-    background:transparent;
+    background:#f7f7f7;
     transform:rotate(90deg);
   }
   75%  { 
@@ -89,7 +89,7 @@ position: absolute;
   }
   100% {  
     border-radius:50%;
-    background:transparent;
+    background:#f7f7f7;
     transform:rotate(180deg);
   }
 }
