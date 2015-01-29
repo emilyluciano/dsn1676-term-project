@@ -49,16 +49,16 @@ text-align: center;
 font-size: 15px;
 }
 
-.square-to-circle {
+.floral {
 width: 50px;
 height: 50px;
 background-color: black;
-animation: 1s ease 2s alternate none infinite running square-to-circle;
+animation: 1s ease 2s alternate none infinite running floral;
 left: 45%;
 position: absolute;
 }
 
-@keyframes square-to-circle {
+@keyframes floral {
   0%{}
   25%{}
   50%{}
@@ -66,7 +66,7 @@ position: absolute;
   100%{}
 }
 
-@-webkit-keyframes square-to-circle {
+@-webkit-keyframes floral {
   0%  {
     border-radius:50px 50px 0 0;
   }
@@ -83,36 +83,3 @@ position: absolute;
     border-radius:50px 50px 0 0;
   }
 }
-
-@keyframes square-to-circle {
-  0%  {
-    border-radius:50px 50px 0 0;
-    border
-    background:#dd9292; 
-  }
-  25%  {
-    border-radius:50px 50px 0 0;
-    background:#f7f7f7;
-  }
-  50%  {
-    border-radius:50px 50px 0 0;
-    background:#dd9292; 
-  }
-  75%  { 
-    border-radius:50px 50px 0 0;
-    background:#dd9292;
-  }
-  100% {  
-    border-radius:50px 50px 0 0;
-    background:black;
-  }
-}
-
-
-
-
-
-
-
-
-
