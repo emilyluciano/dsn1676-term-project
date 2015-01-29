@@ -55,7 +55,7 @@ text-align: center;
 font-size: 15px;
 }
 
-div {
+.square-to-circle {
   width: 200px;
   height: 200px;
   background-color: coral;
@@ -114,62 +114,62 @@ div {
 @keyframes square-to-circle {
   0%  {
     border-radius:0 0 0 0;
-    background:coral;
+    background:black;
     transform:rotate(0deg);
   }
   25%  {
     border-radius:50% 0 0 0;
-    background:darksalmon;
+    background:#f2f2f2;
     transform:rotate(45deg);
   }
   50%  {
     border-radius:50% 50% 0 0;
-    background:indianred;
+    background:black;
     transform:rotate(90deg);
   }
   75%  { 
     border-radius:50% 50% 50% 0;
-    background:lightcoral;
+    background:#dd9292;
     transform:rotate(135deg);
   }
   100% {  
     border-radius:50%;
-    background:darksalmon;
+    background:black;
     transform:rotate(180deg);
   }
 }
 
-div {
+.square-to-circle {
   width: 200px;
   height: 200px;
-  background-color: coral;
+  background-color: #f2f2f2;
   animation: square-to-circle 2s .5s infinite cubic-bezier(1,.015,.295,1.225) alternate;
 }
  
 @keyframes square-to-circle {
   0%  {
     border-radius:0 0 0 0;
-    background:coral;
+    background:black;
     transform:rotate(0deg);
   }
   25%  {
     border-radius:50% 0 0 0;
-    background:darksalmon;
+    background:#f2f2f2;
     transform:rotate(45deg);
   }
   50%  {
     border-radius:50% 50% 0 0;
-    background:indianred;
+    background:#f2f2f2;
     transform:rotate(90deg);
   }
   75%  { 
     border-radius:50% 50% 50% 0;
-    background:lightcoral;
+    background:#dd9292;
     transform:rotate(135deg);
   }
   100% {  
     border-radius:50%;
-    background:darksalmon;
+    background:black;
     transform:rotate(180deg);
   }
 }
