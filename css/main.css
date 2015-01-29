@@ -50,12 +50,12 @@ font-size: 15px;
 }
 
 .floral {
-width: 100px;
-height: 100px;
+width: 50px;
+height: 50px;
 background-color: transparent;
 animation: 1s ease 2s alternate none infinite running floral;
 left: 45%;
-top: 1px;
+top: -20px;
 position: absolute;
 }
 
@@ -70,7 +70,7 @@ position: absolute;
 @keyframes floral {
   0%  {
     border-radius:0 0 0 0;
-    background:#f7f7f7
+    background:#f7f7f7;
     transform:rotate(0deg);
   }
   25%  {
@@ -84,9 +84,9 @@ position: absolute;
     transform:rotate(90deg);
   }
   75%  { 
-    border-radius:50% 50% 50% 0;
+    border-radius:50% 50% 0 0;
     background:transparent;
-    transform:rotate(135deg);
+    transform:rotate(150deg);
   }
   100% {  
     border-radius:50%;
