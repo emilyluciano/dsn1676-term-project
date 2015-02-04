@@ -54,7 +54,7 @@ background-color: transparent;
 @-webkit-animation: 1s ease 2s alternate none infinite running floral;
 animation: 1s ease 2s alternate none infinite running floral;
 position: absolute;
-left: 50%;
+left: 40%;
 }
 
 @-webkit-@keyframes floral {
@@ -93,6 +93,7 @@ left: 50%;
     transform:rotate(180deg);
   }
 }
+
 @keyframes floral {
   0%{}
   25%{}
