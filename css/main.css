@@ -51,11 +51,8 @@ font-size: 15px;
 width: 50px;
 height: 50px;
 background-color: transparent;
-animation: 1s ease 2s alternate none infinite running floral;
-position: absolute;
-left: 50%;
+animation: square-to-circle 2s 1s infinite cubic-bezier(1,.015,.295,1.225) alternate;  
 }
-
 
 @keyframes floral {
   0%{}
@@ -66,6 +63,47 @@ left: 50%;
 }
 
  
+@-webkit-keyframes square-to-circle {
+  0%  {
+    border-radius:0 0 0 0;
+  }
+  25%  {
+    border-radius:50% 0 0 0;
+  }
+  50%  {
+    border-radius:50% 50% 0 0;
+  }
+  75%  {
+    border-radius:50% 50% 50% 0;
+  }
+  100% {
+    border-radius:50%;
+  }
+}
+
+@keyframes square-to-circle {
+  0%  {
+    border-radius:0 0 0 0;
+    background:coral; 
+  }
+  25%  {
+    border-radius:50% 0 0 0;
+    background:darksalmon; 
+  }
+  50%  {
+    border-radius:50% 50% 0 0;
+    background:indianred;
+  }
+  75%  { 
+    border-radius:50% 50% 50% 0;
+    background:lightcoral;
+  }
+  100% {  
+    border-radius:50%;
+    background:darksalmon;
+  }
+}
+
 @keyframes square-to-circle {
   0%  {
     border-radius:0 0 0 0;
@@ -92,40 +130,4 @@ left: 50%;
     background:darksalmon;
     transform:rotate(180deg);
   }
-}
-
-
-@keyframes slide {
-  0% {
-    left: 0;
-    top: 0;
-  }
-  50% {
-    left: 244px;
-    top: 100px;
-  }
-  100% {
-    left: 488px;
-    top: 0;
-  }
-}
-.stage {
-  background: #eaeaed;
-  border-radius: 6px;
-  height: 150px;
-  position: relative;
-  min-width: 538px;
-}
-.stage:hover .ball {
-  animation: slide 2s ease-in-out .5s infinite alternate;
-}
-.stage:active .ball {
-  animation-play-state: paused;
-}
-.ball {
-  background: #2db34a;
-  border-radius: 50%;
-  height: 50px;
-  position: absolute;
-  width: 50px;
 }
