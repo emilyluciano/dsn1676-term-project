@@ -162,7 +162,7 @@ top: 10%;
   animation-name: slide;
   animation-duration: 2s;
   animation-timing-function: ease-in-out;
-  animation-delay: .5s;
+  animation-delay: .3s;
   animation-fill-mode: forwards;
 }
 .background:active .ball {
@@ -170,7 +170,6 @@ top: 10%;
 }
 .ball {
   background-image:url(../images/flower-03.png);
-  border-radius: 50%;
   height: 50px;
   position: absolute;
   width: 50px;
