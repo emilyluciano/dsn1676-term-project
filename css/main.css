@@ -169,5 +169,6 @@ top: 10%;
   animation-play-state:running;
 }
 .ball {
-  background-image:url(../images/flower-03.png);
+  text-align: center;
+  position: relative;
 }
