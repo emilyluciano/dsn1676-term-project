@@ -155,7 +155,7 @@ top: 10%;
   background: white;
   border-radius: 6px;
   height: 150px;
-  position: relative;
+  position: absolute;
   min-width: 538px;
 }
 .logo:hover .ball {
@@ -166,10 +166,10 @@ top: 10%;
   animation-fill-mode: forwards;
 }
 .logo:active .ball {
-  animation-play-state: paused;
+  animation-play-state:running;
 }
 .ball {
-  background: black;
+  background-image:url(../images/logo2-01.svg);
   border-radius: 50%;
   height: 50px;
   position: absolute;
