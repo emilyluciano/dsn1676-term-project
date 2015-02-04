@@ -168,7 +168,7 @@ top: 10%;
 .logo:active .ball {
   animation-play-state: paused;
 }
-.logo {
+.ball {
   background: black;
   border-radius: 50%;
   height: 50px;
