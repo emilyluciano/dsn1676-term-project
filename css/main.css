@@ -152,7 +152,7 @@ top: 10%;
   }
 }
 .logo {
-  background: #eaeaed;
+  background: white;
   border-radius: 6px;
   height: 150px;
   position: relative;
@@ -168,7 +168,7 @@ top: 10%;
 .logo:active .ball {
   animation-play-state: paused;
 }
-.ball {
+.logo {
   background: black;
   border-radius: 50%;
   height: 50px;
