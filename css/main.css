@@ -87,15 +87,15 @@ top: 10%;
 @keyframes square-to-circle {
   0%  {
     border-radius:0 0 0 0;
-    background:coral; 
+    background:white; 
   }
   25%  {
     border-radius:50% 0 0 0;
-    background:darksalmon; 
+    background:lightgray; 
   }
   50%  {
     border-radius:50% 50% 0 0;
-    background:indianred;
+    background:lightpink;
   }
   75%  { 
     border-radius:50% 50% 50% 0;
