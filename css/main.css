@@ -135,90 +135,43 @@ top: 10%;
   }
 }
 
-.floral {
-width: 100px;
-height: 100px;
-background-color: transparent;
-animation: square-to-circle 2s 1s infinite alternate;  
-left: 50%;
-position: absolute;
-top: 10%;
-}
 
-@keyframes floral {
-  0%{}
-  25%{}
-  50%{}
-  75%{}
-  100%{}
-}
 
- 
-@-webkit-keyframes square-to-circle {
-  0%  {
-    border-radius:0 0 0 0;
+@keyframes slide {
+  0% {
+    left: 0;
+    top: 0;
   }
-  25%  {
-    border-radius:50% 0 0 0;
-  }
-  50%  {
-    border-radius:50% 50% 0 0;
-  }
-  75%  {
-    border-radius:50% 50% 50% 0;
+  50% {
+    left: 244px;
+    top: 100px;
   }
   100% {
-    border-radius:50%;
+    left: 488px;
+    top: 0;
   }
 }
-
-@keyframes square-to-circle {
-  0%  {
-    border-radius:0 0 0 0;
-    background:#fff; 
-  }
-  25%  {
-    border-radius:50% 0 0 0;
-    background:#E1E1E1; 
-  }
-  50%  {
-    border-radius:50% 50% 0 0;
-    background:#fff;
-  }
-  75%  { 
-    border-radius:50% 50% 50% 0;
-    background:#E1E1E1;
-  }
-  100% {  
-    border-radius:50%;
-    background:#fff;
-  }
+.logo {
+  background: #eaeaed;
+  border-radius: 6px;
+  height: 150px;
+  position: relative;
+  min-width: 538px;
 }
-
-@keyframes square-to-circle {
-  0%  {
-    border-radius:0 0 0 0;
-    background: #fff;
-    transform:rotate(0deg);
-  }
-  25%  {
-    border-radius:50% 0 0 0;
-    background:#E1E1E1;
-    transform:rotate(30deg);
-  }
-  50%  {
-    border-radius:50% 50% 0 0;
-    background:#E1E1E1;
-    transform:rotate(60deg);
-  }
-  75%  { 
-    border-radius:50% 50% 50% 0;
-    background:#fff;
-    transform:rotate(120deg);
-  }
-  100% {  
-    border-radius:50%;
-    background:#E1E1E1;
-    transform:rotate(100deg);
-  }
+.stage:hover .logo {
+  animation-name: slide;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .5s;
+  animation-fill-mode: forwards;
+}
+.stage:active .logo {
+  animation-play-state: paused;
+}
+.ball {
+  background: black;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  width: 50px;
 }
