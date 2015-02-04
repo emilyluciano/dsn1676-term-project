@@ -60,7 +60,7 @@ left: 40%;
 @-webkit-@keyframes floral {
   0%{}
   25%{}
-  50%{}
+  40%{}
   75%{}
   100%{}
 }
@@ -97,7 +97,7 @@ left: 40%;
 @keyframes floral {
   0%{}
   25%{}
-  50%{}
+  40%{}
   75%{}
   100%{}
 }
@@ -114,7 +114,7 @@ left: 40%;
     background:darksalmon;
     transform:rotate(45deg);
   }
-  50%  {
+  40%  {
     border-radius:50% 50% 0 0;
     background:indianred;
     transform:rotate(90deg);
