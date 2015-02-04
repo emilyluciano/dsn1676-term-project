@@ -36,7 +36,7 @@ margin: 0;
 }
 
 .logo {
- padding: 0;
+ padding: 2em;
  text-align: center;
  width: 90%;
  margin: 1em;
@@ -51,10 +51,48 @@ font-size: 15px;
 width: 50px;
 height: 50px;
 background-color: transparent;
+@-webkit-animation: 1s ease 2s alternate none infinite running floral;
 animation: 1s ease 2s alternate none infinite running floral;
 position: absolute;
+left: 50%;
 }
 
+@-webkit-@keyframes floral {
+  0%{}
+  25%{}
+  50%{}
+  75%{}
+  100%{}
+}
+
+ 
+@-webkit-@keyframes square-to-circle {
+  0%  {
+    border-radius:0 0 0 0;
+    background:coral;
+    transform:rotate(0deg);
+  }
+  25%  {
+    border-radius:50% 0 0 0;
+    background:darksalmon;
+    transform:rotate(45deg);
+  }
+  50%  {
+    border-radius:50% 50% 0 0;
+    background:indianred;
+    transform:rotate(90deg);
+  }
+  75%  { 
+    border-radius:50% 50% 50% 0;
+    background:lightcoral;
+    transform:rotate(135deg);
+  }
+  100% {  
+    border-radius:50%;
+    background:darksalmon;
+    transform:rotate(180deg);
+  }
+}
 @keyframes floral {
   0%{}
   25%{}
@@ -63,30 +101,31 @@ position: absolute;
   100%{}
 }
 
-@keyframes floral {
+ 
+@keyframes square-to-circle {
   0%  {
     border-radius:0 0 0 0;
-    background:#f7f7f7;
+    background:coral;
     transform:rotate(0deg);
   }
   25%  {
     border-radius:50% 0 0 0;
-    background:transparent;
+    background:darksalmon;
     transform:rotate(45deg);
   }
   50%  {
     border-radius:50% 50% 0 0;
-    background:#f7f7f7;
+    background:indianred;
     transform:rotate(90deg);
   }
   75%  { 
-    border-radius:50% 50% 0 0;
-    background:transparent;
-    transform:rotate(150deg);
+    border-radius:50% 50% 50% 0;
+    background:lightcoral;
+    transform:rotate(135deg);
   }
   100% {  
     border-radius:50%;
-    background:#f7f7f7;
+    background:darksalmon;
     transform:rotate(180deg);
   }
 }
