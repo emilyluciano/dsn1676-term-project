@@ -151,25 +151,25 @@ top: 10%;
     top: 0;
   }
 }
-.logo {
+.background {
   background: white;
   border-radius: 6px;
   height: 150px;
   position: absolute;
   min-width: 538px;
 }
-.logo:hover .ball {
+.background:hover .ball {
   animation-name: slide;
   animation-duration: 2s;
   animation-timing-function: ease-in-out;
   animation-delay: .5s;
   animation-fill-mode: forwards;
 }
-.logo:active .ball {
+.background:active .ball {
   animation-play-state:running;
 }
 .ball {
-  background-image:url(../images/logo2-01.svg);
+  background-image:url(../images/flower-03.png);
   border-radius: 50%;
   height: 50px;
   position: absolute;
