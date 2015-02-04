@@ -158,14 +158,14 @@ top: 10%;
   position: relative;
   min-width: 538px;
 }
-.stage:hover .logo {
+.logo:hover .ball {
   animation-name: slide;
   animation-duration: 2s;
   animation-timing-function: ease-in-out;
   animation-delay: .5s;
   animation-fill-mode: forwards;
 }
-.stage:active .logo {
+.logo:active .ball {
   animation-play-state: paused;
 }
 .ball {
