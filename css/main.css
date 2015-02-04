@@ -170,7 +170,4 @@ top: 10%;
 }
 .ball {
   background-image:url(../images/flower-03.png);
-  height: 50px;
-  position: absolute;
-  width: 50px;
 }
