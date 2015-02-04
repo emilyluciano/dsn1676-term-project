@@ -41,7 +41,7 @@ margin: 0;
  position: relative;
  height: 20px;
  width: 300px;
-margin: 0 auto;
+ margin: 0 auto;
 }
 
 .list {
@@ -67,10 +67,11 @@ p {
 width: 50px;
 height: 50px;
 background-color: transparent;
-animation: square-to-circle 2s 1s infinite alternate;  
-left: 50%;
+animation: square-to-circle 2s 1s infinite alternate;
 position: absolute;
+left: 50%;
 top: 10%;
+
 }
 
 @keyframes floral {
