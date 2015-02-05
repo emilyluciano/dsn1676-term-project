@@ -214,24 +214,25 @@ font-size: .8em;
 	opacity: 2;
 }
 
-@-webkit-keyframes {
+@-webkit-keyframes hop {
        from{
-        -webkit-transform: rotate(360deg);
-
-
-         to {
-        -webkit-transform: rotate(360deg);
-        }  
-      }
-
-@-moz-keyframes {
-       from{
-        -moz-transform: rotate(360deg);
+        -webkit-transform: translate(50px,0px);
         }
 
 
          to {
-        -moz-transform: rotate(360deg);
+        -webkit-transform: translate(20px,-30px);
+        }  
+      }
+
+@-moz-keyframes hop {
+       from{
+        -moz-transform: translate(10px,0px);
+        }
+
+
+         to {
+        -moz-transform: translate(15px,50px);
         }  
       }
 
@@ -244,31 +245,16 @@ font-size: .8em;
     margin: 0 auto;
     top: 40px;
     
-0%  {
-    border-radius:0 0 0 0;
-    background: #fff;
-    transform:rotate(0deg);
-  }
-  25%  {
-    border-radius:50% 50% 0 0;
-    background:#E1E1E1;
-    opacity: 2%;
-    transform:rotate(45deg);
-  }
-  50%  {
-    border-radius:50% 50% 50% 0;
-    background:#E1E1E1;
-    opacity: 2%;
-    transform:rotate(90deg);
-  }
-  75%  { 
-    border-radius:50% 50% 50% 0;
-    background:#fff;
-    opacity: 2%;
-    transform:rotate(180deg);
-  }
-  100% {  
-    border-radius:0;
-    background:#E1E1E1;
-    transform:rotate(360deg);
-  }
+-webkit-animation-name: hop;
+    -webkit-animation-duration:.6s;
+     -webkit-animation-direction:alternate;
+    -webkit-animation-timing-function:linear;
+    -webkit-animation-delay:0s;
+    -webkit-animation-iteration-count:infinite;
+    -moz-animation-name: hop;
+    -moz-animation-duration:.6s;
+     -moz-animation-direction:alternate;
+    -moz-animation-timing-function:linear;
+    -moz-animation-delay:0s;
+    -moz-animation-iteration-count:infinite;
+}
