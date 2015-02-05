@@ -48,6 +48,7 @@ padding-bottom: 10px;
 
 .graphic {
 background-color: transparent;
+transform: translate(50%);
 animation: square-to-circle 2s 1s infinite alternate;
 position: absolute;
 width: 50px;
@@ -146,3 +147,93 @@ padding-bottom: 0;
     transform:rotate(360deg);
   }
 }
+
+.progress-button {
+	position: absolute;
+	display: inline-block;
+	text-align: center;
+    transform: translate(50%);
+    padding: 5%;
+    top: 15%;
+}
+.progress-button button {
+	display: block;
+	margin: 0 auto;
+    text-align: center;
+	padding: 0;
+	width: 150px;
+	height: 50px;
+	border: 1px solid white;
+	border-radius: 50px;
+	background: white;
+	color: black;
+	letter-spacing: 3px;
+	font-size: 15px;
+	font-family: 'Cinzel', serif;
+	-webkit-transition: background-color 0.5s, color 0.5s, width 0.5s, border-width 0.5s, border-color 0.5s;
+	transition: background-color 0.5s, color 0.5s, width 0.5s, border-width 0.5s, border-color 0.5s;
+}
+
+.progress-button button:hover {
+	background-color: black;
+	color: white;
+    transform: translateX(2%);
+    width: 50px;
+    font-size: .5em;
+}
+
+.progress-button button:focus {
+	outline: none;
+}
+
+div {
+	width: 200px;
+	height: 200px;
+	position: relative;
+	overflow: hidden;
+	background: #ddd;
+}
+
+svg {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+svg line {
+	stroke-width: 10;
+	stroke: #000;
+	fill: none;
+	stroke-dasharray: 200;
+	-webkit-transition: -webkit-transform .6s ease-out;
+	transition: transform .6s ease-out;
+}
+
+div:hover svg line {
+	-webkit-transform: translateX(-400px);
+	transform: translateX(-400px);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
