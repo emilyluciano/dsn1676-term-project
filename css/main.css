@@ -40,6 +40,7 @@ margin: 0;
 
 .logo {
 background-color: transparent;
+@-mozkit-animation: square-to-circle 2s 1s infinite alternate;
 animation: square-to-circle 2s 1s infinite alternate;
 display: inline-block;
 width: 60px;
@@ -112,16 +113,19 @@ font-size: .8em;
   25%  {
     border-radius:50% 50% 0 0;
     background:#E1E1E1;
+    opacity: 2%;
     transform:rotate(45deg);
   }
   50%  {
     border-radius:50% 50% 50% 0;
     background:#E1E1E1;
+    opacity: 2%;
     transform:rotate(90deg);
   }
   75%  { 
     border-radius:50% 50% 50% 0;
     background:#fff;
+    opacity: 2%;
     transform:rotate(180deg);
   }
   100% {  
@@ -175,7 +179,7 @@ font-size: .8em;
     transform: translate(20%);
     background-repeat:repeat;
 	background-position: center center;
-	transition: all 0.6s linear;
+	transition: all 0.8s linear;
 	transform-origin: 50% 0%;
 }
 
