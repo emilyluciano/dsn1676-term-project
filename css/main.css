@@ -214,45 +214,61 @@ font-size: .8em;
 	opacity: 2;
 }
 
-@-webkit-keyframes hop {
+@-webkit-keyframes {
        from{
-        -webkit-transform: translate(0px,0px);
-        }
+        -webkit-transform: rotate(360deg);
 
 
          to {
-        -webkit-transform: translate(0px,-30px);
+        -webkit-transform: rotate(360deg);
         }  
       }
 
-@-moz-keyframes hop {
+@-moz-keyframes {
        from{
-        -moz-transform: translate(0px,0px);
+        -moz-transform: rotate(360deg);
         }
 
 
          to {
-        -moz-transform: translate(0px,-30px);
+        -moz-transform: rotate(360deg);
         }  
       }
 
 .bounce{
     display:block;
-    height:200px;
-    width:200px;
-    background:#ff6600;
-    border-radius:300px;
-    margin-top:100px;
--webkit-animation-name: hop;
-    -webkit-animation-duration:.3s;
-     -webkit-animation-direction:alternate;
-    -webkit-animation-timing-function:linear;
-    -webkit-animation-delay:0s;
-    -webkit-animation-iteration-count:infinite;
-    -moz-animation-name: hop;
-    -moz-animation-duration:.3s;
-     -moz-animation-direction:alternate;
-    -moz-animation-timing-function:linear;
-    -moz-animation-delay:0s;
-    -moz-animation-iteration-count:infinite;
-}
+    height:50px;
+    width:50px;
+    background-repeat: no-repeat;
+    background-image: url(../images/icons_gifts-03.svg);
+    margin: 0 auto;
+    top: 40px;
+    
+0%  {
+    border-radius:0 0 0 0;
+    background: #fff;
+    transform:rotate(0deg);
+  }
+  25%  {
+    border-radius:50% 50% 0 0;
+    background:#E1E1E1;
+    opacity: 2%;
+    transform:rotate(45deg);
+  }
+  50%  {
+    border-radius:50% 50% 50% 0;
+    background:#E1E1E1;
+    opacity: 2%;
+    transform:rotate(90deg);
+  }
+  75%  { 
+    border-radius:50% 50% 50% 0;
+    background:#fff;
+    opacity: 2%;
+    transform:rotate(180deg);
+  }
+  100% {  
+    border-radius:0;
+    background:#E1E1E1;
+    transform:rotate(360deg);
+  }
