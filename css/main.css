@@ -38,7 +38,7 @@ margin: 0;
     color: white;
 }
 
-.graphic {
+.logo {
 background-color: transparent;
 animation: square-to-circle 2s 1s infinite alternate;
 display: inline-block;
@@ -53,7 +53,7 @@ p {
 font-size: .8em;
 }
 
-@keyframes square-to-circle{
+@keyframes logo{
   0%{}
   25%{}
   50%{}
