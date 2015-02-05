@@ -277,7 +277,7 @@ font-size: .8em;
 }
 
 .ch-info .ch-info-back {
-	transform: translate3d(0,5,-20px) rotate3d(1,0,0,90deg);
+	transform: translate3d(5,-20px) rotate3d(1,0,0,90deg);
 	background: #dd9292;
 	opacity: 0;
 }
@@ -332,13 +332,13 @@ font-size: .8em;
     -webkit-animation-name: hop;
     -webkit-animation-duration: 1s;
     -webkit-animation-direction:alternate;
-    -webkit-animation-timing-function:vertical;
+    -webkit-animation-timing-function:linear;
     -webkit-animation-delay:0s;
     -webkit-animation-iteration-count:infinite;
     animation-name: hop;
     animation-duration: 1s;
     animation-direction:alternate;
-    animation-timing-function:vertical;
+    animation-timing-function:linear;
     animation-delay:0s;
     animation-iteration-count:infinite;
 }
