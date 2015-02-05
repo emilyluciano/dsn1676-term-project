@@ -139,11 +139,11 @@ padding-bottom: 0;
   75%  { 
     border-radius:50% 50% 50% 0;
     background:#fff;
-    transform:rotate(135deg);
+    transform:rotate(360deg);
   }
   100% {  
     border-radius:50%;
     background:#E1E1E1;
-    transform:rotate(180deg);
+    transform:rotate(190deg);
   }
 }
